@@ -1,5 +1,5 @@
-# Mecmua web sitesi
+# Mecmua website
 
-Gizlilik politikası ve destek sayfaları: https://onbilgin.github.io/mecmua-site/
+Privacy policy, support and publisher pages: https://onbilgin.github.io/mecmua-site/
 
-Newsreader yazı tipi SIL Open Font License ile dağıtılır (fonts/Newsreader-OFL.txt).
+The Newsreader typeface is distributed under the SIL Open Font License (fonts/Newsreader-OFL.txt).
