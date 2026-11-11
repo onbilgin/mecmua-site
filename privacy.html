@@ -1,22 +1,32 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gizlilik Politikası · Mecmua</title>
-<meta name="description" content="Mecmua gizlilik politikası: hesap yok, analitik yok, takip yok. / Mecmua privacy policy: no account, no analytics, no tracking.">
+<title>Privacy Policy · Mecmua</title>
+<meta name="description" content="Mecmua privacy policy: no account, no analytics, no tracking. / Mecmua gizlilik politikası: hesap yok, analitik yok, takip yok.">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
+<style>
+  /* English by default; Turkish only when chosen (#tr). No script needed. */
+  .lang-pane { display: none; }
+  #en { display: block; }
+  #tr:target { display: block; }
+  #tr:target ~ #en { display: none; }
+  section.lang-pane + section.lang-pane { margin-top: 0; padding-top: 0; border-top: 0; }
+  .lang-switch a { font-weight: 600; }
+</style>
 </head>
 <body>
 <header>
   <a class="brand" href="./"><img src="icon.png" alt=""><span>Mecmua</span></a>
-  <nav><a href="./">Ana sayfa</a><a href="support.html">Destek</a><a href="#en">English</a></nav>
+  <nav><a href="./">Home</a><a href="support.html">Support</a></nav>
 </header>
 
 <main>
-<section lang="tr">
+<section lang="tr" id="tr" class="lang-pane">
+  <p class="lang-switch"><a href="#en" lang="en">Read in English</a></p>
   <h1>Gizlilik Politikası</h1>
   <p class="meta">Son güncelleme: 11 Kasım 2026 (rev. 2)</p>
 
@@ -63,7 +73,8 @@
   <p>Bu politika değişirse güncel hâli bu sayfada, yeni tarihle yayımlanır. Uygulama veri toplamaya başlayacak bir değişiklik olursa bunu önceden ve açıkça bildiririz.</p>
 </section>
 
-<section lang="en" id="en">
+<section lang="en" id="en" class="lang-pane">
+  <p class="lang-switch"><a href="#tr" lang="tr">Türkçe oku</a></p>
   <h1>Privacy Policy</h1>
   <p class="meta">Last updated: November 11, 2026 (rev. 2)</p>
 
